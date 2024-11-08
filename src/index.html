@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,13 @@
     <link rel="stylesheet" href="styles.css">
 
     <!--~~~~~~~~~~ FONTAWESOME ~~~~~~~~~~-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Banking website</title>
 </head>
+
 <body class="bg-color-primary text-color-white tracking-wider">
 
     <!--~~~~~~~~~~ HEADER ~~~~~~~~~~-->
@@ -27,7 +31,8 @@
                 <ul class="hidden lg:flex items-center space-x-6">
                     <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
                     <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
-                    <li><a href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
+                    <li><a href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonial</a>
+                    </li>
                     <li><a href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
                     <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
                     <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
@@ -46,11 +51,15 @@
             <div id="menu" class="hidden bg-color-primary-dark h-[100vh] absolute inset-0">
                 <ul class="h-full grid place-items-center py-20">
                     <li><a id="hlink" href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
-                    <li><a id="hlink" href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
-                    <li><a id="hlink" href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
-                    <li><a id="hlink" href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                    <li><a id="hlink" href="#features"
+                            class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+                    <li><a id="hlink" href="#testimonial"
+                            class="hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
+                    <li><a id="hlink" href="#pricing"
+                            class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
                     <li><a id="hlink" href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
-                    <li><a id="hlink" href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+                    <li><a id="hlink" href="#contact"
+                            class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
 
                     <li>
                         <button class="btn">free trial</button>
@@ -65,12 +74,15 @@
         <!--~~~~~~~~~~ HOME ~~~~~~~~~~-->
         <section id="home" class="relative">
             <div class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-10 blur-2xl opacity-30  rounded-full"></div>
-            <div class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl opacity-30  rounded-full"></div>
+            <div
+                class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-10 blur-2xl opacity-30  rounded-full">
+            </div>
             <div class="container py-20">
                 <div class="flex flex-col items-center z-20 md:flex-row">
                     <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
                         <h1 class="title mb-4">Awesome App for Your Financial.</h1>
-                        <p class=" mb-10">This should be used to tell a story and let your users know a little more about app and it’s use, How can benefit them.</p>
+                        <p class=" mb-10">This should be used to tell a story and let your users know a little more
+                            about app and it’s use, How can benefit them.</p>
                         <button class="btn">Download App</button>
                     </div>
 
@@ -82,28 +94,61 @@
         </section>
 
         <!--~~~~~~~~~~ FEATURES ~~~~~~~~~~=-->
-        <section id="features">
-           
+        <section id="features" class="bg-color-primary-light">
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="font-bold text-color-secondary mb-4">Our Feature</h4>
+                    <h1 class="title">Easy To Manage Your All Payments By Our App</h1>
+                </div>
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8">
+                    <!-- Card 1 -->
+                    <div class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <i class="fa-solid fa-calendar-days text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Expense Trackering</h3>
+                        <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <i class="fa-solid fa-chart-column text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Finance Snapshot</h3>
+                        <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <i class="fa-solid fa-phone text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Support 24/7</h3>
+                        <p class="leading-relaxed">We use an application designed a testing gnose to keep away</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!--~~~~~~~~~~ SAVING MONEY ~~~~~~~~~~-->
         <section id="saving-money">
-          
+
         </section>
 
         <!--~~~~~~~~~~ HOW-IT-WORKS ~~~~~~~~~~-->
         <section id="how-it-works">
-          
+
         </section>
 
         <!--~~~~~~~~~~ TESTIMONIAL ~~~~~~~~~~-->
         <section id="testimonial">
-        
+
         </section>
 
         <!--~~~~~~~~~~ PRICING ~~~~~~~~~~-->
         <section id="pricing">
-           
+
         </section>
 
         <!--~~~~~~~~~~ BLOG ~~~~~~~~~~-->
@@ -113,17 +158,17 @@
 
         <!--~~~~~~~~~~ DOWNLOAD-APP ~~~~~~~~~~-->
         <section id="download-app">
-        
+
         </section>
 
         <!--~~~~~~~~~~ CONTACT ~~~~~~~~~~-->
         <section id="contact">
-            
+
         </section>
 
         <!--~~~~~~~~~~ CONTACT ~~~~~~~~~~-->
         <section id="footer">
-           
+
         </section>
     </main>
 
@@ -149,7 +194,8 @@
         });
 
         // testimonial
-        
+
     </script>
 </body>
+
 </html>
