@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "watch": "npx tailwindcss -i ./src/input.css -o ./src/styles.css --watch"
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/styles.css --watch",
+    "minify": "cleancss -o ./deploy/build/styles.min.css ./src/styles.css",
+    "minifyjs": "uglifyjs ./src/app.js -o ./deploy/build/app.min.js"
   },
   "keywords": [],
   "author": "",
